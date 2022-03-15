@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context=".TambahPerusahaan">
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_centerInParent="true"
+        android:background="#54487797" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/logobpscover"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/logo_bps_cover" />
+
+            <EditText
+                android:id="@+id/nama_perusahaan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/logobpscover"
+                android:hint="Nama Perusahaan"
+                android:inputType="textMultiLine|textCapCharacters"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/logobpscover"
+                android:text="Status Badan Usaha : "
+                android:textSize="18sp"
+                android:textColor="#665555" />
+
+            <Spinner
+                android:id="@+id/badan_usaha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/logobpscover"
+                android:entries="@array/badan_usaha"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/badan_usaha"
+                android:layout_marginBottom="25dp"
+                android:hint="Alamat"
+                android:inputType="textMultiLine|textCapWords"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:text="Kabupaten/Kota"
+            android:textColor="#665555" />
+
+        <EditText
+            android:id="@+id/kota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="kabupaten/kota"
+            android:inputType="textPersonName"
+            android:textColor="#000"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:text="Kecamatan"
+            android:textColor="#665555" />
+
+        <AutoCompleteTextView
+            android:id="@+id/kecamatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="kecamatan"
+            android:inputType="textPersonName|textCapWords"
+            android:completionThreshold="1"
+            android:textColor="#000"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:text="Kelurahan"
+            android:textColor="#665555" />
+
+        <AutoCompleteTextView
+            android:id="@+id/kelurahan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="kelurahan"
+            android:inputType="textPersonName|textCapWords"
+            android:completionThreshold="1"
+            android:textColor="#000"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:text="No Telepon Perusahaan"
+            android:textColor="#665555" />
+
+        <EditText
+            android:id="@+id/tlp_perusahaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="no tlpn perusahaan"
+            android:inputType="phone"
+            android:textColor="#000"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:text="Email Perusahaan"
+            android:textColor="#665555" />
+
+        <EditText
+            android:id="@+id/email_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:textColor="#000"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:text="Nama Contact Person"
+            android:textColor="#665555" />
+
+        <EditText
+            android:id="@+id/nama_cp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="nama cp"
+            android:inputType="textPersonName|textCapWords"
+            android:textColor="#000"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:text="Nomor Contact Person"
+            android:textColor="#665555" />
+
+        <EditText
+            android:id="@+id/kontak_cp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="no cp"
+            android:inputType="phone"
+            android:textColor="#000"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:text="Latitude, Longitude"
+            android:textColor="#665555" />
+
+        <EditText
+            android:id="@+id/latlng_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="latitude, longitude"
+            android:inputType="text"
+            android:textColor="#000"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Simpan" />
+
+        <Button
+            android:id="@+id/batalkan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Batal" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

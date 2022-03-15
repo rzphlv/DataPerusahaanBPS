@@ -1,0 +1,225 @@
+<resources>
+    <string name="app_name">Direktori Perusahaan</string>
+    <string name="title_activity_home_admin">HomeAdmin</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Badan Pusat Statistik</string>
+    <string name="nav_header_subtitle">bandarlampungkota.bps.go.id</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+
+    <string name="menu_home">Home</string>
+    <string name="login">Login</string>
+    <string name="menu_tambahperusahaan">Tambah perusahaan</string>
+    <string name="menu_tambahadmin">Tambah admin</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_editprofil">Edit profil</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_logout">Logout</string>
+    <string name="title_activity_home_tamu">HomeTamu</string>
+    <string-array name="status">
+        <item>-</item>
+        <item>Respon</item>
+        <item>Menolak</item>
+        <item>Pindah ke luar kab/kota</item>
+        <item>Tutup</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <string-array name="badan_usaha">
+        <item>-</item>
+        <item>PT</item>
+        <item>CV</item>
+        <item>Firma</item>
+        <item>Koperasi</item>
+        <item>Yayasan</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <string-array name="tahun">
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+    </string-array>
+    <string-array name="kecamatan">
+        <item>-</item>
+        <item>Teluk Betung Barat</item>
+        <item>Teluk Betung Timur</item>
+        <item>Teluk Betung Selatan</item>
+        <item>Bumi Waras</item>
+        <item>Panjang</item>
+        <item>Tanjung Karang Timur</item>
+        <item>Kedamaian</item>
+        <item>Teluk Betung Utara</item>
+        <item>Tanjung Karang Pusat</item>
+        <item>Enggal</item>
+        <item>Tanjung Karang Barat</item>
+        <item>Kemiling</item>
+        <item>Langkapura</item>
+        <item>Kedaton</item>
+        <item>Rajabasa</item>
+        <item>Tanjung Senang</item>
+        <item>Labuhan Ratu</item>
+        <item>Sukarame</item>
+        <item>Sukabumi</item>
+        <item>Way Halim</item>
+    </string-array>
+
+    <string-array name="kelurahan">
+
+        <item>Bakung</item>
+        <item>Kuripan</item>
+        <item>Negeri Olok Gading</item>
+        <item>Sukarame II</item>
+        <item>Batu Putuk</item>
+
+        <item>Sukamaju</item>
+        <item>Keteguhan</item>
+        <item>Kota Karang</item>
+        <item>Perwata</item>
+        <item>Way Tataan</item>
+        <item>Kota Karang Raya</item>
+
+        <item>Gedong Pakuon</item>
+        <item>Talang</item>
+        <item>Pesawahan</item>
+        <item>Teluk Betung</item>
+        <item>Sumur Putri</item>
+        <item>Gunung Mas</item>
+
+        <item>Kangkung</item>
+        <item>Bumi Waras</item>
+        <item>Bumi Raya</item>
+        <item>Sukaraja</item>
+        <item>Garuntang</item>
+
+        <item>Srengsem</item>
+        <item>Panjang Selatan</item>
+        <item>Panjang Utara</item>
+        <item>Pidada</item>
+        <item>Karang Maritim</item>
+        <item>Way Lunik</item>
+        <item>Ketapang</item>
+        <item>Ketapang Kuala</item>
+
+        <item>Kota Baru</item>
+        <item>Tanjung Agung</item>
+        <item>Kebon Jeruk</item>
+        <item>Sawah Lama</item>
+        <item>Sawah Brebes</item>
+
+        <item>Tanjung Gading</item>
+        <item>Tanjung Raya</item>
+        <item>Kedamaian</item>
+        <item>Kalibalau Kencana</item>
+        <item>Tanjung Baru</item>
+        <item>Bumi Kedamaian</item>
+        <item>Tanjung Agung Raya</item>
+
+        <item>Kupang Kota</item>
+        <item>Kupang Teba</item>
+        <item>Kupang Raya</item>
+        <item>Sumur Batu</item>
+        <item>Gulak Galik</item>
+        <item>Pengajaran</item>
+
+        <item>Durian Payung</item>
+        <item>Gotong Royong</item>
+        <item>Palapa</item>
+        <item>Kaliawi</item>
+        <item>Kelapa Tiga</item>
+        <item>Pasir Gintung</item>
+        <item>Kaliawi Persada</item>
+
+        <item>Gunung Sari</item>
+        <item>Tanjung Karang</item>
+        <item>Pelita</item>
+        <item>Enggal</item>
+        <item>Rawa Laut</item>
+        <item>Pahoman</item>
+
+        <item>Susunan Baru</item>
+        <item>Sukadana Ham</item>
+        <item>Sukajawa</item>
+        <item>Gedong Air</item>
+        <item>Segala Mider</item>
+        <item>Sukajawa Baru</item>
+        <item>Kelapa Tiga Permai</item>
+
+        <item>Bilabong Jaya</item>
+        <item>Langkapura</item>
+        <item>Langkapura Baru</item>
+        <item>Gunung Terang</item>
+        <item>Gunung Agung</item>
+
+        <item>Sumber Agung</item>
+        <item>Kedaung</item>
+        <item>Pinang Jaya</item>
+        <item>Beringin Raya</item>
+        <item>Sumber Rejo</item>
+        <item>Kemiling Permai</item>
+        <item>Semberrejo Sejahtera</item>
+        <item>Beringin Jaya</item>
+        <item>Kemiling Raya</item>
+
+        <item>Sukamenanti</item>
+        <item>Sidodadi</item>
+        <item>Surabaya</item>
+        <item>Kedaton</item>
+        <item>Sukamenanti Baru</item>
+        <item>Penengahan</item>
+        <item>Penengahan Raya</item>
+
+        <item>Gedong Meneng</item>
+        <item>Rajabasa</item>
+        <item>Rajabasa Raya</item>
+        <item>Rajabasa Jaya</item>
+        <item>Gedong Meneng Baru</item>
+        <item>Rajabasa Pemuka</item>
+        <item>Rajabasa Nunyai</item>
+
+        <item>Labuhan Dalam</item>
+        <item>Tanjung Senang</item>
+        <item>Way Kandis</item>
+        <item>Perumnas Way Kandis</item>
+        <item>Pematang Wangi</item>
+
+        <item>Labuhan Ratu</item>
+        <item>Kampung Baru</item>
+        <item>Sepang Jaya</item>
+        <item>Labuahan Ratu Raya</item>
+        <item>Kota Sepang</item>
+        <item>Kampung Baru Raya</item>
+
+        <item>Sukarame</item>
+        <item>Way Dadi</item>
+        <item>Korpri Jaya</item>
+        <item>Way Dadi Baru</item>
+        <item>Korpri Raya</item>
+        <item>Sukarame Baru</item>
+
+        <item>Sukabumi Indah</item>
+        <item>Sukabumi</item>
+        <item>Nusantara Permai</item>
+        <item>Campang Raya</item>
+        <item>Campang Jaya</item>
+        <item>Way Gubak</item>
+        <item>Way Laga</item>
+
+        <item>Jagabaya I</item>
+        <item>Jagabaya II</item>
+        <item>Jagabaya III</item>
+        <item>Gunung Sulah</item>
+        <item>Way Halim Permai</item>
+        <item>Perumnas Way Halim</item>
+
+    </string-array>
+</resources>

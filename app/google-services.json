@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1076291329581",
+    "firebase_url": "https://data-perusahaan.firebaseio.com",
+    "project_id": "data-perusahaan",
+    "storage_bucket": "data-perusahaan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076291329581:android:b8c31c06d17a9a13",
+        "android_client_info": {
+          "package_name": "rzphlv.nmf.dataperusahaanbps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076291329581-levtcvujpmkjqb52k03anvmmttr8k6l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDizrisIvhkGFCVbXHFP5OkCVu4IsEJQsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076291329581-levtcvujpmkjqb52k03anvmmttr8k6l6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
